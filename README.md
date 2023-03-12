@@ -8,7 +8,7 @@
 	
 ## Links
     - 01- Exception Consumes in JVM
-    https://github.com/CarlosRobertoMedeiros/study-java-arch/tree/main/exceptions-consume-jvm
+https://github.com/CarlosRobertoMedeiros/study-java-arch/tree/main/exceptions-consume-jvm
 
     - 02 - Advanced Techniques (Stream Examples)
-    https://github.com/CarlosRobertoMedeiros/study-java-arch/tree/main/advanced-techniques
+https://github.com/CarlosRobertoMedeiros/study-java-arch/tree/main/advanced-techniques
