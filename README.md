@@ -8,7 +8,7 @@
 	
 ## Links
     - 01- Exception Consumes in JVM
-https://github.com/CarlosRobertoMedeiros/study-java-arch/tree/main/exceptions-consume-jvm
+[Flex Grid](https://github.com/CarlosRobertoMedeiros/study-java-arch/tree/main/exceptions-consume-jvm)
 
     - 02 - Advanced Techniques (Stream Examples)
-https://github.com/CarlosRobertoMedeiros/study-java-arch/tree/main/advanced-techniques
+[Flex Grid](https://github.com/CarlosRobertoMedeiros/study-java-arch/tree/main/advanced-techniques)
