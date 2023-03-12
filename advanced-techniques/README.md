@@ -7,7 +7,7 @@
 	- Carlos Roberto Medeiros de Lima
 	
 ## Implementation
-	- Learnig about Development using "Monads" 
+	- Learning about Development using "Monads" 
 	
 	- In general therms we need to change try/catch blocks and implements stream flows.
     
