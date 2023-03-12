@@ -7,8 +7,8 @@
 	- Carlos Roberto Medeiros de Lima
 	
 ## Links
-    - Exception Consumes in JVM
-	- <a href=https://github.com/CarlosRobertoMedeiros/study-java-arch/tree/main/exceptions-consume-jvm</a>
-	
-	- Advanced Techniques (Stream Examples)
-	<a href=https://github.com/CarlosRobertoMedeiros/study-java-arch/tree/main/advanced-techniques></a>
+    - 01- Exception Consumes in JVM
+    https://github.com/CarlosRobertoMedeiros/study-java-arch/tree/main/exceptions-consume-jvm
+
+    - 02 - Advanced Techniques (Stream Examples)
+    https://github.com/CarlosRobertoMedeiros/study-java-arch/tree/main/advanced-techniques
