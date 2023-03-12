@@ -7,8 +7,5 @@
 	- Carlos Roberto Medeiros de Lima
 	
 ## Links
-    - 01- Exception Consumes in JVM
-[Flex Grid](https://github.com/CarlosRobertoMedeiros/study-java-arch/tree/main/exceptions-consume-jvm)
-
-    - 02 - Advanced Techniques (Stream Examples)
-[Flex Grid](https://github.com/CarlosRobertoMedeiros/study-java-arch/tree/main/advanced-techniques)
+[01 - Exception Consumes in JVM](https://github.com/CarlosRobertoMedeiros/study-java-arch/tree/main/exceptions-consume-jvm)
+[02 - Advanced Techniques (Stream Examples)](https://github.com/CarlosRobertoMedeiros/study-java-arch/tree/main/advanced-techniques)
