@@ -2,6 +2,8 @@ package br.com.roberto.advanced.advancedtechniques.services;
 
 import br.com.roberto.advanced.advancedtechniques.entity.Student;
 import br.com.roberto.advanced.advancedtechniques.repository.StudentRepository;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -21,5 +23,9 @@ public class StudentService {
 
     public Student addStudent(Student student) {
         return studentRepository.save(student);
+    }
+
+    public Page<Student> getAllStudents(Pageable pagination) {
+        return studentRepository.findAll(pagination);
     }
 }

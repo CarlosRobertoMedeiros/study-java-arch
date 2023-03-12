@@ -1,11 +1,4 @@
 spring:
-  datasource:
-    url: jdbc:h2:mem:studentdb
-    username: admin
-    password: admin
-    driverClassName: org.h2.Driver
-  jpa:
-    spring.jpa.database-platform: org.hibernate.dialect.H2Dialect
 
   # http://localhost:8010/{{context-path}}/h2-console
   h2:
@@ -14,3 +7,21 @@ spring:
       path: /h2-console
       settings.trace: false
       settings.web-allow-others: false
+
+  datasource:
+    url: jdbc:h2:mem:studentdb;DB_CLOSE_DELAY=-1
+    driverClassName: org.h2.Driver
+    username: admin
+    password: admin
+
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    defer-datasource-initialization: false
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+# Flyway Configuration
+  flyway:
+    locations: classpath:db/local/migration

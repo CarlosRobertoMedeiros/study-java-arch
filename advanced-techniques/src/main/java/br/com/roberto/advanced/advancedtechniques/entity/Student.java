@@ -1,15 +1,20 @@
 package br.com.roberto.advanced.advancedtechniques.entity;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "Tbl_Student")
+@Table(name = "Tbl_Student" , schema = "general")
 public class Student {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @JsonProperty("Id")
     private Long id;
+
+    @JsonProperty("First_Name")
     private String firstName;
+    @JsonProperty("Second_Name")
     private String secondName;
 
     public Student() {}

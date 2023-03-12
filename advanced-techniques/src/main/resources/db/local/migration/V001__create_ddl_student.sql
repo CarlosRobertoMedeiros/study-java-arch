@@ -1,0 +1,7 @@
+CREATE SCHEMA general AUTHORIZATION admin;
+
+CREATE TABLE general.Tbl_Student (
+	Id IDENTITY PRIMARY KEY,
+	First_Name VARCHAR(50),
+	Second_Name VARCHAR(50)
+);
