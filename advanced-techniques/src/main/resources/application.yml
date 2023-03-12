@@ -1,0 +1,9 @@
+server:
+  port: 8010
+  servlet:
+    context-path: /alunos
+
+spring:
+  profiles:
+    default: local
+    active: local
