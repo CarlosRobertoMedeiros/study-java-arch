@@ -24,6 +24,12 @@ public class Student {
         this.secondName = secondName;
     }
 
+    public Student(Long id, String firstName, String secondName) {
+        this.id = id;
+        this.firstName = firstName;
+        this.secondName = secondName;
+    }
+
     public Long getId() {
         return id;
     }

@@ -7,6 +7,7 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class StudentService {
@@ -21,11 +22,23 @@ public class StudentService {
         return studentRepository.findAll();
     }
 
+    public Page<Student> getAllStudents(Pageable pagination) {
+        return studentRepository.findAll(pagination);
+    }
+
+    public Optional<Student> getStudentById(Long id) {
+        return studentRepository.findById(id);
+    }
+
     public Student addStudent(Student student) {
         return studentRepository.save(student);
     }
 
-    public Page<Student> getAllStudents(Pageable pagination) {
-        return studentRepository.findAll(pagination);
+    public Student updateStudent(Student student) {
+        return studentRepository.save(student);
+    }
+
+    public void deleteStudent(Long id) {
+        studentRepository.deleteById(id);
     }
 }

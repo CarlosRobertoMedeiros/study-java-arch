@@ -25,3 +25,8 @@ spring:
 # Flyway Configuration
   flyway:
     locations: classpath:db/local/migration
+
+# custom path for swagger-ui
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
